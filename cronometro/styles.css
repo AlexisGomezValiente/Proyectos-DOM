@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Bebas Neue', sans-serif;
+    background: url(img/fondo.png) no-repeat center center/ cover;
+}
+
+#sub-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 70vw;
+    max-width: 600px;
+    height: 60vh;
+    background-color: white;
+    border: 4px solid black;
+    border-radius: 10px;
+}
+
+#cronometro{
+    font-size: 100px;
+    padding:20px;
+}
+
+#button-container{
+    padding: 20px;
+    display: flex;
+}
+
+.boton{
+    width: 80px;
+    height: 80px;
+    font-size: 60px;
+    margin: 0 20px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border: 3px solid black;
+    border-radius: 5px;
+}
+
+.boton:hover{
+    box-shadow: 0 0 20px 3px grey;
+}
+
+.iniciar{
+    background-color: rgb(5, 214, 5);
+}
+
+.pausar{
+    background-color: yellow;
+}
+
+.reiniciar{
+    background-color: red;
+}

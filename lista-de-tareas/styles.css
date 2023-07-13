@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    box-sizing: border-box;
+    font-family: 'Play', sans-serif;
+}
+
+#container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(img/fondo.jpg) no-repeat center center/ cover;
+}
+
+#sub-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 10px;
+    border: 5px solid rgb(0, 0, 31);
+    width: 75vw;
+    min-height: 90vh;
+}
+
+#div-tareas{
+    width: 95%;
+    height: 90%;
+    justify-content: center;
+    align-items: center;
+}
+
+#titulo{
+    font-size: 60px;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    color: rgb(1, 1, 95);
+}
+
+#input-boton{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#input{
+    font-family: 'Play', sans-serif;
+    font-size: 25px;
+    width: 90%;
+    padding: 10px;
+    border-radius: 20px;
+    border: 3px solid rgb(1, 1, 95);
+    margin-right: 20px;
+}
+
+#boton-agregar{
+    background-color: rgb(1, 1, 95);
+    color: white;
+    border: 3px solid rgb(1, 1, 95);
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 25px;
+    padding: 10px;
+}
+
+#boton-agregar:hover{
+    box-shadow: 0 0 20px 3px grey;
+}
+
+.container-realizadas{
+    background-color:rgb(1, 1, 95);
+    display: flex;
+    justify-content:flex-start;
+    flex-wrap:nowrap;
+    margin-top: 15px;
+    border-radius: 15px;
+    border: 3px solid rgb(1, 1, 95);
+    padding: 10px 20px;
+}
+
+.tarea-realizada{
+    display: block;
+    color:rgb(1, 1, 95);
+    background-color: white;
+    padding: 25px;
+    margin-right: 15px;
+    border-radius: 10px;
+    width: 100%;
+    font-size: 25px;
+}
+
+.tarea-realizada-marcada{
+    display: block;
+    padding: 25px;
+    margin-right: 15px;
+    border-radius: 10px;
+    width: 100%;
+    font-size: 25px;
+    color: black;
+    background-color: grey;
+    text-decoration:line-through;
+}
+
+.div-boton-realizado{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.boton-realizado{
+    margin: 0 8px;
+    border-radius: 8px;
+    font-size: 40px;
+    border: none;
+    cursor: pointer;
+    width:50px;
+    height: 50px;
+    background-color: rgb(1, 1, 95);
+    color: gray;
+}
+
+.boton-realizado:hover{
+    color: white;
+}
+
+.boton-borrado{
+    margin: 0 8px;
+    border-radius: 8px;
+    font-size: 40px;
+    border: none;
+    cursor: pointer;
+    width:50px;
+    height: 50px;
+    background-color: rgb(1, 1, 95);
+    color: gray;
+}
+
+.boton-borrado:hover{
+    color: white;
+}
